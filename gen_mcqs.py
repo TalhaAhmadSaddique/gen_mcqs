@@ -15,13 +15,13 @@ Original file is located at
 # !pip install nltk
 # !pip install pywsd
 import os
-import openai
+#import openai
 from fastapi import FastAPI
 
 import nltk
-nltk.download('stopwords')
-nltk.download('popular')
-nltk.download('punkt')
+#nltk.download('stopwords')
+#nltk.download('popular')
+#nltk.download('punkt')
 # !pip install flashtext
 # !pip install rake-nltk
 # !pip install python-rake
